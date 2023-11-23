@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const FoodsConsumedLabel(),
             const SizedBox(
-              height: 8,
+              height: 10,
             ),
           ],
         ),
