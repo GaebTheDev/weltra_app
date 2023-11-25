@@ -38,7 +38,7 @@ class _UserGreetingState extends State<UserGreeting> {
 
   TextStyle hiUserTextStyle = const TextStyle(
     color: Colors.black,
-    fontSize: 28,
+    fontSize: 36,
   );
 
   TextStyle sublineTextStyle = const TextStyle(

@@ -64,7 +64,7 @@ class _IntakeCardState extends State<IntakeCard> {
                   cardLogo,
                   height: 20,
                   width: 20,
-                )
+                ),
               ],
             ),
             Row(

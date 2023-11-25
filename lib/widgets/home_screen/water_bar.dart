@@ -27,8 +27,12 @@ class _WaterBarState extends State<WaterBar> {
           ),
           child: RotatedBox(
             quarterTurns: 3,
-            child: SizedBox(
-              width: screenHeight(context) / 2.7,
+            child: Container(
+              clipBehavior: Clip.antiAlias,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              width: screenHeight(context) / 3.2,
               child: Slider(
                 value: wVal.toDouble(),
                 min: wMin.toDouble(),

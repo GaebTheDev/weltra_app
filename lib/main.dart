@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weltra_app/screens/home_screen.dart';
+import 'package:weltra_app/screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         resizeToAvoidBottomInset: false,
-        body: HomeScreen(),
+        body: MainScreen(),
         backgroundColor: Colors.white,
       ),
     );

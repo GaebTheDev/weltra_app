@@ -13,7 +13,7 @@ class UserModel {
   final double? targetCalories;
   final double? targetProtein;
 
-  const UserModel(
+  const UserModel({
     this.id,
     this.profilePicture,
     this.firstName,
@@ -27,5 +27,5 @@ class UserModel {
     this.weightGoal,
     this.targetCalories,
     this.targetProtein,
-  );
+  });
 }
